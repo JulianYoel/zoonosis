@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.menu{
+    text-align: center;
+    list-style:armenian;
+    padding: 14rem;
+    background-image:url("fotoMenu.jpeg");
+    
+    width: 100%;
+    
+    margin: auto;
+    border-radius: 20px;
+}
+
+.menu li a{
+    position:relative;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    padding: 20px;
+   
+
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+    background: #ff686b;
+    border: 1px solid #ffa69e;
+    border-radius: 20px;
+    
+}
+
+.menu li a:hover{
+    background: #ffa69e;
+    border-radius: 20px;
+    scroll-behavior: smooth; 
+    transition-duration:0.5s ;
+}
